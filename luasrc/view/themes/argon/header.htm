@@ -45,7 +45,7 @@
     <meta charset="utf-8">
     <title>
         <%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %>
-        - LuCI</title>
+        - VSocks</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta name="format-detection" content="telephone=no, email=no" />
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -56,8 +56,8 @@
     <meta name="browsermode" content="application">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="msapplication-TileColor" content="<%=bar_color%>">
-    <meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
-    <meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
+    <meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - VSocks">
+    <meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - VSocks">
     <link rel="apple-touch-icon" sizes="60x60" href="<%=media%>/icon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<%=media%>/icon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="144x144" href="<%=media%>/icon/apple-icon-144x144.png">
@@ -156,7 +156,7 @@
 					<noscript>
 						<div class="alert-message error">
 							<h4><%:JavaScript required!%></h4>
-							<p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
+							<p><%:You must enable JavaScript in your browser or VSocks will not work properly.%></p>
 						</div>
 					</noscript>
 
